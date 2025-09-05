@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+
+// Rectangle Class 
 class Rectangle{
 
     private:
@@ -17,6 +19,7 @@ class Rectangle{
                 cout<<"The area of Rectangle is:"<<length*width<<endl;
         }
 };
+// main function 
 int main()
 {
     Rectangle obj;
