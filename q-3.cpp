@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// Base class
+// Parent class
 class Shape {
 private:
     string color;
@@ -31,7 +31,7 @@ public:
     }
 };
 
-// Derived class: Circle
+// Child class: Circle
 class Circle : public Shape {
 private:
     float radius;
@@ -47,7 +47,7 @@ public:
     }
 };
 
-// Derived class: Rectangle
+// Child class: Rectangle
 class Rectangle : public Shape {
 private:
     float length, width;
