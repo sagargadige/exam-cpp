@@ -46,10 +46,10 @@ public:
     }
 
     void display() const override {
-        cout << "\nShape: Circle\n";
-        cout << "Radius: " << radius << "\n";
-        cout << "Color: " << getColor() << "\n";
-        cout << "Area: " << getArea() << "\n";
+        cout << "Shape: Circle"<<endl;
+        cout << "Radius: " << radius<<endl;
+        cout << "Color: " << getColor() <<endl;
+        cout << "Area: " << getArea() <<endl;
     }
 };
 
@@ -71,10 +71,10 @@ public:
     }
 
     void display() const override {
-        cout << "\nShape: Rectangle\n";
-        cout << "Length: " << length << ", Width: " << width << "\n";
-        cout << "Color: " << getColor() << "\n";
-        cout << "Area: " << getArea() << "\n";
+        cout<<endl<<"Shape: Rectangle"<<endl;
+        cout << "Length: " << length << ", Width: " << width <<endl;
+        cout << "Color: " << getColor() <<endl;
+        cout << "Area: " << getArea() <<endl;
     }
 };
 
@@ -102,7 +102,7 @@ int main() {
     shapes[1] = new Rectangle(length, width, rectangleColor);
     shapes[1]->calculateArea();
 
-    cout << "\n--- Shape Details ---\n";
+    cout <<endl<<"--- Shape Details ---"<<endl;
     for (int i = 0; i < size; i++) {
         shapes[i]->display();
     }
